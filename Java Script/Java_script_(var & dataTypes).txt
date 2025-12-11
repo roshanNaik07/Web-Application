@@ -1,0 +1,39 @@
+>Java script is a syncronous , single threaded scripting Language which is used to provide the functionalality
+			syncronous: line by line excecution
+
+>keywords : Var - re-declare
+				  re-assign
+				  functional scoped
+			
+			let - re-assign
+				  no re-declare
+				  block scoped
+				  
+			const- should be intialized during declaration
+				   no re-assign
+				   
+>DataTypes :
+	primitive : number , Bigint , undefined , null, boolean, symbol,string
+	
+	non primitive: functions ,array ,objects
+	
+	"typeof" is a keyword which is used to check the type of the variable
+
+> We can assign whole function as a value to the variable
+	- In order to access the value we can call the variable name
+	- in order to access the function we have to use the variable name with() 
+		ex: variableName()
+		
+		ex: let cost = ()=>{
+							return 10;
+						}
+			when we call console.log(cost)  output : {
+														return 10;
+													 }
+			when we call cost() 			output: 10
+
+> annonymous functions is a function without a name and can be used to initialize the variabes
+
+> callback function : function which is passed as an argument for another function , to achieve asynchronous behaviour 
+
+>setTimeout function : is a function which is used to delay the call back function to achieve the asynchronous 
