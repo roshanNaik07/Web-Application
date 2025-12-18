@@ -1,0 +1,27 @@
+React :
+		> It is a library
+		> Follows Single page application (SPA) - using router
+		> Large ui is divided in to smaller components ( Reuse )
+		> Dom updation is done internally (automatically) - using virtual Dom
+		> follows single way data flow
+		
+	How to run a react :
+		> add CDN links from the site
+		
+	> npm - node package manager
+	> package.json : is a configuration file , which contain all the info related to dependencies
+						defines a likly version
+	> package-lock.json : holds the exact version of packagex
+	> Packages : webpack
+				 parcel 
+				
+	
+	> first create npm init
+	> then npm install -D parcel
+	> npm install react
+	> npm install react-dom
+	> npx parcel index.html
+		> import React from "react"
+		> import ReactDOM from "react-dom/client"
+		> <script type="module" src="app.js"> </script>
+	
