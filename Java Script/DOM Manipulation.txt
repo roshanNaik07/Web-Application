@@ -1,0 +1,25 @@
+> DOM (Document object model ) - can manupulate structure of a webpage , which js use it to create , delete and update 
+	the webpage, can be accessed using window
+
+> Window is a global object 
+
+> Things to do :
+	DOM Manipulation
+	Event listener
+	form validation
+> Higher order function : function which takes other function as a parameter
+
+> fetch is a function in js which helps to do a api call and axios is also used to do the api calls
+
+>CDN link - content delivery network
+
+>promise - eventual representation of an object which represent weather the state of an object is pending , rejected, resolved
+
+> async
+  await - is used to make the function async
+  
+  map , filter , reduce ( higer order functions)
+  
+  block scope & functional scope
+  
+  hoisting , temperory dead zone , closures
